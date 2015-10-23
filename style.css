@@ -109,6 +109,13 @@ h2 {
     font-family: courier new;
     color: #e31912;
 }
+.dot-break {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px #bfb4ae dashed;
+}
+
 .borders {
     padding: 0 1.7em 0 1.7em;
 }
