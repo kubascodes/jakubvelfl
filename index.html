@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=.75">
+	<title>Jakub Velfl</title>
+	<meta name="author" content="Jakub Velfl" />
+	<meta name="description" content="Jakub's web" />
+	<meta name="keywords"  content="personal web, presentation, blog" />
+	<meta name="Resource-type" content="Document" />
+    <link rel="icon" type="image/png" href="./pics/profile_logo.png" width="10px" height="10px">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+    <script src="./jquery.sidr.min.js"></script>
+    
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#simple-menu').sidr({
+        side: 'right',
+        });
+        $('#btnClose').click(function(){ // when 'btnClose' is clicked…
+        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+    });
+        $('#start').click(function(){ // when 'btnClose' is clicked…
+        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+    });
+    $('body').click(function(){
+        $.sidr('close', 'sidr');
+    });
+});
+	</script>
+</head>
+
+    
+<a class="menu" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png" id="btnMenu"></a>
+
+<div id="sidr">
+  <ul id="scroll">
+    <li><a href="#section0">Home</a></li>
+<li><a href="./cv.html">Bio</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#getInTouch">Contact</a></li>
+    </ul> 
+    
+</div>
+     
+<body>
+    
+<div class="wrapper">
+	<div class="section" id="section0">
+        <div class="content">
+        <div class="together">
+            <a href="index.html"><h1 class="white">JAKUB VELFL</h1></a>
+        
+        <ul id="social">
+            <a href="./cv.html"><li id="btnCV" class="socialMargin">bio</li></a>
+            <a href="http://cz.linkedin.com/in/jakubvelfl"><li id="btnIn" class="socialMargin">in</li></a>
+            <a href="#">
+                <li id="btnBlog">blog</li></a>
+            <a href="mailto:info@jakubvelfl.com"><li id="btnMail">@</li></a> 
+     </ul>
+            </div>
+        </div>
+           
+    </div>
+    <div class="section" id="bio">
+        <div class="content">
+<!--        <img src="img/yiab_hand.png" id="handwritten">-->
+            <a href="./cv.html"><img src="img/kuba.jpg" class="small"></a>
+            <a href="cv.html"><h1>Bio</h1></a>
+            <p>click here to learn more about me.</p>
+            </div>
+    </div>
+    
+    <div class="section" id="blog">
+        <div class="content">
+<!--        <img src="img/yiab_hand.png" id="handwritten">-->
+        
+            <h1>Blog</h1>
+            <p>I intend to post mainly travel related stuff here.</p>
+            </div>
+    </div>
+    
+    <div class="section" id="projects">
+        <div class="content">
+<!--        <img src="img/yiab_hand.png" id="handwritten">-->
+        
+            <h1>Projects</h1>
+            <p>Links to my other projects below:</p>
+            <div>
+            <figure><a href="http://www.czchallenge2014.cz"><img src="img/czchallenge.png" class="smallest"></a>
+               <figcaption>CZ Challenge 2014</figcaption> 
+                </figure>
+            
+            </div>
+            </div>
+    </div>
+    
+    <div class="section" id="getInTouch">
+        <div class="layer"></div>
+        <div class="content" id="scroll">
+        
+<!--            <img src="img/getintouch.png" id="getintouch">-->
+            <div class="content">
+            <img src="./img/titles/getInTouch.png" alt="Get in touch" class="titles">
+    <p class="white" id="scroll">If you want to contact me, please use the email or linkedIn provided below. I look forward to your message.</p>
+        <p class="white" id="scroll">And thanks for visiting my page!</p>
+
+            </div>
+        <br>
+         <ul id="social">
+     <a href="http://cz.linkedin.com/in/jakubvelfl"><li id="btnIn" class="socialMargin">in</li></a>
+            <a href="mailto:info@jakubvelfl.com"><li id="btnMail">@</li></a>
+     </ul>
+        </div>
+    
+    </div>
+    
+    
+    </div>
+    </body>
+</html>
+    
+    
