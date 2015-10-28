@@ -281,24 +281,24 @@ h2 {
     right: 20px;
     top: 20px;
 }
-.sidr {
+#sidr {
   /* Default Settings */
   display: none;
   position: fixed;
   top: 100px;
   height: 100%;
   z-index: 999999;
-  width: 90%;
+  width: 80%;
   overflow-x: none;
   overflow-y: scroll;
   /* Theme Settings */
   font-size: 1em;
   color: black;
 }
-.sidr a {
+#sidr a {
    color: black;
     font-family: courier new;
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding: 0.25em .25em .25em .25em;
    margin: 1em;
     display: flex;
@@ -307,11 +307,10 @@ h2 {
     border-bottom: 1.5px black solid;
     justify-content: center;
 }
-.sidr a:hover {
-    background: #b6fcd5;
-    border-bottom: 1.5px #b6fcd5 solid;
+#sidr a:hover {
+    border-bottom: 1.5px #43A16F dashed;
 }
-.sidr.right {
+.right {
   left: auto;
   right: -260px;
 }
