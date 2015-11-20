@@ -207,11 +207,11 @@ h2 {
     width: 30px;
 }
 .together {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-align: center;
 }
 #social {
-    display: inline-flex;
+    display: inline-block;
     position: relative;
     z-index: 70;
     margin-top: 3em;
