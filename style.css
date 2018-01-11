@@ -167,13 +167,15 @@ h2 {
 }
 #bio {
    border-bottom: 2px black dashed; 
+   height: 100vh;
 }
 #blog {
    border-bottom: 2px black dashed;
     background-color: #bfb4ae;
+    height: 100vh;
 }
 #projects {
-    
+    height: 100vh;
 }
 
 .profilPic {
@@ -193,7 +195,7 @@ h2 {
     background-size: cover;
     background-image: url(img/contact.jpg);
     background-repeat: no-repeat;
-    height: 750px;
+    height: 100vh;
 }
 .layer {
     background-color: rgba(51,51,51, 0.4);
