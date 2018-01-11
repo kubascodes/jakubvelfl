@@ -122,6 +122,8 @@ h2 {
 .moreBorders {
     padding: 0 1.7em 0 1.7em;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* SECTIONS SETTINGS
  * --------------------------------------- */
