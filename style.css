@@ -138,15 +138,14 @@ li {
 /* SECTIONS SETTINGS
  * --------------------------------------- */
 .section{
-	text-align:center;
-    justify-content: center;
-    align-items: center;
     background-color: #faf9f7;
     display: flex;
     position: relative;
     min-height: 700px;
     height: 100%;
 }
+
+
 
 .content p {
   text-align: left;
@@ -175,7 +174,7 @@ li {
 }
 #workExperience {
 }
-#competences {
+#skills {
 }
 #hobbies {
 }
