@@ -72,7 +72,7 @@ body{
 }
 
 /* TITLES & TEXT
- * --------------------------------------- */ 
+ * --------------------------------------- */
 
 .titles {
     height: 50px;
@@ -84,18 +84,21 @@ h1{
     padding: 0 1em 0 1em;
 }
 .white {
-   color: white; 
+   color: white;
 }
 p{
-    padding: 1em 1em 1em 1em;
+    padding: .6em 1em 0em 1em;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.5em;
+    line-height: 1.4em;
     font-family: courier new;
     text-align: center;
     font-size: 1.2em;
     color:#444;
     max-width: 700px;
+}
+a {
+  color: black;
 }
 .more {
     color: red;
@@ -103,12 +106,16 @@ p{
 }
 h2 {
     font-size: 2em;
-    padding: 0 1em 0 1em;
+    padding: .5em .5em 0em .5em;
     line-height: 1.1em;
     font-weight: 500;
     font-family: courier new;
     color: #e31912;
 }
+li {
+  color:#444;
+}
+
 .dot-break {
     margin-left: auto;
     margin-right: auto;
@@ -140,11 +147,18 @@ h2 {
     min-height: 700px;
     height: 100%;
 }
+
+.content p {
+  text-align: left;
+}
+.content h2 {
+  text-align: left;
+}
+
 #center {
     text-align:center;
     justify-content: center;
     align-items: center;
-    
 }
 
 #section0 {
@@ -153,11 +167,11 @@ h2 {
     background-repeat: no-repeat;
     height: 100vh;
 }
-#aboutMe {   
-    
+#profile {
+
 }
 #education {
-    
+
 }
 #workExperience {
 }
@@ -166,7 +180,7 @@ h2 {
 #hobbies {
 }
 #bio {
-   border-bottom: 2px black dashed; 
+   border-bottom: 2px black dashed;
    height: 100vh;
 }
 #blog {
@@ -184,7 +198,7 @@ h2 {
     position: relative;
     max-width: 1000px;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
 }
 #jakub {
     display: block;
@@ -254,7 +268,7 @@ h2 {
     border-bottom: 2px #c1ffc1 solid;
 }
 #btnClose {
-    
+
 }
 #bottom {
     top: 50px;
