@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=.75">
+	<title>Contact - Jakub Velfl</title>
+	<meta name="author" content="Jakub Velfl" />
+	<meta name="description" content="Jakub's web" />
+	<meta name="keywords" content="personal web, presentation, blog" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="icon" type="image/png" href="./img/profile_logo.png" width="10px" height="10px">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script src="./jquery.sidr.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#simple-menu').sidr({
+				side: 'right',
+			});
+			$('#btnClose').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('#start').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('body').click(function () {
+				$.sidr('close', 'sidr');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="navbar">
+			<h2 style="margin-right: auto; padding-top: 1.5rem; padding-left: 2rem">JAKUB VELFL | CONTACT</h2>
+			<a class="menu no-border" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png"
+					id="btnMenu"></a>
+		</div>
+	
+
+	<div class="flex-column" style="height: 100vh">
+			<div style="align-self: flex-start;">
+				<h3 class="content-margin-top">Thanks for visiting my website. Let's connect on
+					<a href="http://cz.linkedin.com/in/jakubvelfl" id="btnIn" class="socialMargin">linkedin</a>
+					or say
+					<a href="mailto:hello@jakubv.com" id="btnMail">hello@jakubv.com</a>
+					.
+				</h3>
+			</div>
+			<div style="align-self: flex-end; margin-top: auto; margin-bottom: 1rem">
+				<div class="flex-row" style="align-items: flex-end; justify-content: right!important; margin-right: -1rem">
+				<img src="./img/kuba-dish.jpg" alt="kuba" srcset="./img/kuba-dish.jpg" class="smaller" style="margin-top: 1rem; margin-bottom: 1rem; margin-right: 1rem; border-radius: 5px;">
+				<img src="./img/moonshine.jpg" alt="moonshine" srcset="./img/moonshine.jpg" class="small" style="margin-top: 1rem; margin-bottom: 1rem; margin-right: 1rem; border-radius: 5px;">
+			</div>
+			</div>
+
+	</div>
+</div>
+</body>
+
+<nav id="sidr">
+	<ul>
+		<li><a class="no-border" href="./index.html">Home</a></li>
+		<li><a class="no-border" href="./bio.html">Bio</a></li>
+		<li><a class="no-border" href="./projects.html">Projects</a></li>
+		<li><a class="no-border" href="./reflections.html">Reflections</a></li>
+		<li><a class="no-border" href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+</html>

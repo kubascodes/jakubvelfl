@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=.75">
+	<title>Projects - Jakub Velfl</title>
+	<meta name="author" content="Jakub Velfl" />
+	<meta name="description" content="Jakub's web" />
+	<meta name="keywords" content="personal web, presentation, blog" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="icon" type="image/png" href="./img/profile_logo.png" width="10px" height="10px">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script src="./jquery.sidr.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#simple-menu').sidr({
+				side: 'right',
+			});
+			$('#btnClose').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('#start').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('body').click(function () {
+				$.sidr('close', 'sidr');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<h2 style="margin-right: auto; padding-top: 1.5rem; padding-left: 2rem">JAKUB VELFL | PROJECTS</h2>
+			<a class="menu no-border" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png"
+					id="btnMenu"></a>
+		</div>
+
+		<div class="content content-margin-top center-margin" style="margin-bottom: 1rem">
+			<div class="flex-row">
+				<div class="flex-item">
+					<a class="no-border" href="http://czchallenge.jakubv.com"><img src="img/czchallenge.png"
+							class="smaller center-margin">
+						<h3 class="align-self-center">cz challenge</h3>
+						<h4 class="align-self-center">cycling the czech border</h4>
+					</a>
+				</div>
+				<div class="flex-item">
+					<a class="no-border" href="http://yearinabackpack.jakubv.com"><img
+							src="img/YIAB_logo_black_medium.png" class="smaller center-margin">
+						<h3 class="align-self-center" style="justify-self: end;">year in a backpack</h3>
+						<h4 class="align-self-center">backpacking from brazil to nepal</h4>
+					</a>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/bus.jpg" class="smaller">
+					<h3 class="align-self-center">1986 vw bus - dobrodruh</h3>
+					<h4 class="align-self-center">from restoration to home on wheels</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/vankarawan.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">#vankarawan pop-ups</h3>
+					<h4 class="align-self-center">apple cidre x coffee x cold brew</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/favorit.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">favorit f12 rebuild</h3>
+					<h4 class="align-self-center">10 speed gravel-ready machine</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/boombox.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">sound systems</h3>
+					<h4 class="align-self-center">passion or obsession?</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/soundscapes.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">soundscapes</h3>
+					<h4 class="align-self-center">sounds of nature landscapes</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/bed.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">do it yourself</h3>
+					<h4 class="align-self-center">hobby projects</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/analog.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">analog photography</h3>
+					<h4 class="align-self-center">capturing present moments</h4>
+				</div>
+				<div class="flex-item">
+					<img style="border-radius: 5px;" src="img/ewaste.jpg" class="smaller center-margin">
+					<h3 class="align-self-center">electronic waste</h3>
+					<h4 class="align-self-center">ongoing research project</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<nav id="sidr">
+	<ul>
+		<li><a class="no-border" href="./index.html">Home</a></li>
+		<li><a class="no-border" href="./bio.html">Bio</a></li>
+		<li><a class="no-border" href="./projects.html">Projects</a></li>
+		<li><a class="no-border" href="./reflections.html">Reflections</a></li>
+		<li><a class="no-border" href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+</html>

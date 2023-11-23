@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=.75">
+	<title>Bio - Jakub Velfl</title>
+	<meta name="author" content="Jakub Velfl" />
+	<meta name="description" content="Jakub's web" />
+	<meta name="keywords" content="personal web, presentation, blog" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="icon" type="image/png" href="./img/profile_logo.png" width="10px" height="10px">
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script src="./jquery.sidr.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#simple-menu').sidr({
+				side: 'right',
+			});
+			$('#btnClose').click(function () {
+				$.sidr('close', 'sidr');
+			});
+			$('#start').click(function () {
+				$.sidr('close', 'sidr');
+			});
+			$('body').click(function () {
+				$.sidr('close', 'sidr');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<h2 style="margin-right: auto; padding-top: 1.5rem; padding-left: 2rem">JAKUB VELFL | BIO</h2>
+			<a class="menu no-border" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png"
+					id="btnMenu"></a>
+		</div>
+
+		<div class="content content-margin-top" style="margin-bottom: 1rem">
+			<div class="flex-row">
+				<div>
+					<img src="./img/kuba-kavarna.jpg" alt="moss" srcset="./img/kuba-kavarna.jpg" class="small center-margin"
+						style="margin-top: 1rem; margin-bottom: 1rem; border-radius: 4px;">
+					<h3><i>I strive to improve what can be done better to create a positive impact in the world.</i>
+					</h3>
+
+					<h2>SKILLS</h2>
+					<p>I am a multi-talented person with a cross-disciplinary background. Instead of specialising in one
+						field, I like variety at work.</p>
+					<p>I studied languages, mathematics, business and later informatics. On top of that, I self-learned programming in a dream of becoming a web developer. Similarly, I learned mechanics
+						and electrics to learn how to repair my bikes and to get that old bus back on the road. As I am deeply concerned by climate change, I continue to broaden my knowledge of topics around nature - sustainability -
+						alternative socioeconomic systems. Last but not least, I nurture my creative side with strong interests in art - design -
+						architecture. Learning is a continuous journey.</p>
+					<p>I am the geek behind the computer screen, seasonal harvester of fruits, brewer of refreshments,
+						mechanic... But those aren't the only skills - I climb although I fear heights, I can keep balance on the slackline, I practice patience while surfing and I love playing the piano. I like working with my hands, I like to exercise my brain and stretch my body beyond the comfort zone, I like to try out new
+						things.</p>
+					<p>While distinct and seemingly unrelated, each of these experiences contributes tremendously
+						towards personal development and a balanced skillset overall.</p>
+
+					<h2>CODE</h2>
+					<p>I think of technology as a helpful tool that extends human capabilities. Thereby, I work on tech
+						tools that help and connect people, solve challenges and unlock new possibilities.</p>
+					<p>My favourite programming language is Javascript and my favourite tech stack is Mongo | Express | React | Node.js | Typescript | GraphQL | MaterialUI
+						| Git | Docker | Digital Ocean.</p>
+					<p>With the help of these technologies, I develop web apps that run in the cloud. While my strengths
+						lie in backend systems and databases, I cover the full-stack from system design, through
+						implementation to maintenance.</p>
+
+					<h2>RESEARCH</h2>
+					<p>Research insights help us to understand the world around us through knowledge discovery. From
+						research design, through data collection, to structured information and knowledge, I can do it.
+					</p>
+					<ul>
+						<li><b><i>Bachelor Thesis</i></b> How does sharing economy impact traditional organisations <a
+								href="assets/jakub velfl - how does sharing economy impact traditional organisations.pdf">(pdf)</a>
+						</li>
+						<li><b><i>Master Thesis</b></i> Why do WEEE need monitoring: towards documented e-waste
+							management in Ghana. designing a system for monitoring resource flows <a
+								href="mailto:hello@jakubv.com">(ask for copy)</a>
+						</li>
+					</ul>
+
+					<h2>DATA</h2>
+					<p>Data points to knowledge. But not that fast... I have experience of modelling, warehousing,
+						manipulating, analysing, reporting and visualising data using MongoDb, SQL (MySQL and
+						PostgreSQL), R and Excel. </p>
+					<ul>
+						<li><a href="/assets/spotify.html">Spotify Best Of 2017</a> - data analysis</li>
+					</ul>
+
+					<h2>PORTFOLIO</h2>
+					<ul>
+						<li><a href="https://velflcollection.com">velflcollection.com</a> - platform for managing art
+							collections (MERN stack, production)</li>
+						<li><a href="http://ewaste.jakubv.com">resource flows</a> - platform for monitoring processes
+							and resource flows (MERN stack, proof-of-concept)</li>
+						<li><a href="http://czchallenge.jakubv.com">cz challenge</a> - this is the first website I ever built
+							after learning the basics of HTML & CSS from Codecademy</li>
+						<li><a href="http://yearinabackpack.jakubv.com">yearinabackpack</a> - a travel blog built with
+							Jekyll, hosted on Github Pages, updateable from smartphone</li>
+						<li><a href="http://autsajdr.cz">autsajdr</a> - small website for my brother's aut-sajdr apple
+							cidre.</li>
+						<li><a href="http://github.com/kubascodes">github.com/kubascodes</a> - all other projects are on
+							Github</li>
+					</ul>
+
+					<h2>CONTACT</h2>
+					<p>Thanks for reading thus far. Let's connect on
+						<a href="http://cz.linkedin.com/in/jakubvelfl" id="btnIn" class="socialMargin">linkedin</a>
+						or say
+						<a href="mailto:hello@jakubv.com" id="btnMail">hello@jakubv.com</a>
+						.
+					</p>
+
+				</div>
+			</div>
+		</div>
+</body>
+
+<nav id="sidr">
+	<ul>
+		<li><a class="no-border" href="./index.html">Home</a></li>
+		<li><a class="no-border" href="./bio.html">Bio</a></li>
+		<li><a class="no-border" href="./projects.html">Projects</a></li>
+		<li><a class="no-border" href="./reflections.html">Reflections</a></li>
+		<li><a class="no-border" href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+</html>

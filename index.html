@@ -3,133 +3,78 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=.75">
+	<meta name="viewport" content="width=device-width, initial-scale=.75">
 	<title>Jakub Velfl</title>
 	<meta name="author" content="Jakub Velfl" />
 	<meta name="description" content="Jakub's web" />
-	<meta name="keywords"  content="personal web, presentation, blog" />
+	<meta name="keywords" content="personal web, presentation, blog" />
 	<meta name="Resource-type" content="Document" />
-    <link rel="icon" type="image/png" href="./pics/profile_logo.png" width="10px" height="10px">
+	<link rel="icon" type="image/png" href="./img/profile_logo.png" width="10px" height="10px">
 
-
-    <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
-    <script src="./jquery.sidr.min.js"></script>
+	<script src="./jquery.sidr.min.js"></script>
 
 	<script type="text/javascript">
-	$(document).ready(function() {
-    $('#simple-menu').sidr({
-        side: 'right',
-        });
-        $('#btnClose').click(function(){ // when 'btnClose' is clicked…
-        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
-    });
-        $('#start').click(function(){ // when 'btnClose' is clicked…
-        $.sidr('close', 'sidr');  // close the div with the ID of "sidr"
-    });
-    $('body').click(function(){
-        $.sidr('close', 'sidr');
-    });
-});
+		$(document).ready(function () {
+			$('#simple-menu').sidr({
+				side: 'right',
+			});
+			$('#btnClose').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('#start').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('body').click(function () {
+				$.sidr('close', 'sidr');
+			});
+		});
 	</script>
 </head>
 
+<body>
+	
+	<div class="container">
+		<div class="navbar">
+			<a class="menu no-border" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png"
+					id="btnMenu"></a>
+		</div>
+	</div>
 
-<a class="menu" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png" id="btnMenu"></a>
+	<div class="section">
+		<div class="container">
+			<h1 style="margin-right: auto; padding-top: 0.5rem">HELLO, I AM JAKUB VELFL.</h1>
+			<div style="align-self: flex-end;">
+			<h3>a human being born in Prague with</h3>
+			<h3>a curious mind, creative soul and free spirit</h3>
+			<h3>interested in tech, nature and sustainability.</h3>
+			<div class="flex-row" style="align-items: flex-end; justify-content: right!important; justify-items: center; margin-left: -0.5rem; margin-right: -0.5rem; margin-bottom: 2.5rem; margin-top: 0.5rem">
+				<img src="./img/kubavan.jpg" alt="kubavan" srcset="./img/kubavan.jpg" class="smaller" style="margin: 0.5rem; border-radius: 5px;">
+				<img src="./img/tree.jpg" alt="tree" srcset="./img/tree.jpg" class="small" style="margin: 0.5rem; border-radius: 5px;">
+				<img src="./img/moss.jpg" alt="moss" srcset="./img/moss.jpg" class="small" style="margin: 0.5rem; border-radius: 5px;">
+			</div>
+			</div>
+			<div id="spotify" style="position: sticky; bottom: 1.8rem; right: 2rem; width: 20%; min-width: 300px; margin-left: auto;">
+				<iframe style="border-radius:12px"
+					src="https://open.spotify.com/embed/playlist/0JfaktvCfeWMbFufy5ytpd?utm_source=generator&theme=0"
+					width="100%" height="152" frameBorder="0" allowfullscreen=""
+					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+				</iframe>
+			</div>
+		</div>
 
-<div id="sidr">
-  <ul id="scroll">
-    <li><a href="#section0">Home</a></li>
-<li><a href="./cv.html#profile">Bio</a></li>
-<li><a href="http://yearinabackpack.jakubv.com">Blog</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#getInTouch">Contact</a></li>
-    </ul>
+	</div>
+</body>
 
-</div>
+<nav id="sidr">
+	<ul>
+		<li><a class="no-border" href="./index.html">Home</a></li>
+		<li><a class="no-border" href="./bio.html">Bio</a></li>
+		<li><a class="no-border" href="./projects.html">Projects</a></li>
+		<li><a class="no-border" href="./reflections.html">Reflections</a></li>
+		<li><a class="no-border" href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
 
-<body class="body-scroll">
-
-<div class="wrapper">
-	<div class="section" id="section0">
-        <div class="content" id="intro">
-
-        <a href="index.html"><h1 class="white">JAKUB VELFL</h1></a>
-
-        <ul id="social">
-            <a href="./cv.html#profile"><li id="btnCV" class="socialMargin">bio</li></a>
-            <a href="http://cz.linkedin.com/in/jakubvelfl"><li id="btnIn" class="socialMargin">in</li></a>
-            <a href="http://yearinabackpack.jakubv.com">
-                <li id="btnBlog">blog</li></a>
-            <a href="mailto:hello@jakubv.com"><li id="btnMail">@</li></a>
-     </ul>
-
-        </div>
-
-    </div>
-    <div class="section" id="bio">
-        <div class="content" id="center">
-<!--        <img src="img/yiab_hand.png" id="handwritten">-->
-            <a href="./cv.html#profile"><img src="img/kuba.jpg" class="small"></a>
-            <a href="./cv.html#profile"><h1>Bio</h1></a>
-            <p>click here to learn more about me.</p>
-            </div>
-    </div>
-
-    <div class="section" id="blog">
-        <div class="content white" id="center">
-<!--        <img src="img/yiab_hand.png" id="handwritten">-->
-
-            <h1><a class="white" href="http://yearinabackpack.jakubv.com">Blog</a></h1>
-						<figure><a href="http://yearinabackpack.jakubv.com"><img src="img/YIAB_logo_white_medium.png" class="smallest"></a>
-					 <figcaption>Year in a backpack</figcaption>
-						</figure>
-            <p class="white">Blog from travels in South and North America as far as Asia!</p>
-						<p class="white">
-							Read the blog <a class="white" href="http://yearinabackpack.jakubv.com">here</a>!
-						</p>
-            </div>
-    </div>
-
-    <div class="section" id="projects">
-        <div class="content" id="center">
-<!--        <img src="img/yiab_hand.png" id="handwritten">-->
-
-            <h1>Projects</h1>
-            <p>Links to my other projects below:</p>
-
-            	<figure><a href="http://czchallenge.jakubv.com"><img src="img/czchallenge.png" class="smallest"></a>
-               <figcaption>CZ Challenge 2014</figcaption>
-                <br>
-                <div class="dot-break"></div>
-                </figure>
-
-								<figure><a href="http://yearinabackpack.jakubv.com"><img src="img/YIAB_logo_black_medium.png" class="smallest"></a>
-               <figcaption>Year in a backpack</figcaption>
-                </figure>
-
-
-            </div>
-    </div>
-
-    <div class="section" id="getInTouch">
-
-<!--            <img src="img/getintouch.png" id="getintouch">-->
-            <div class="content" id="center">
-            <h1 class="white">Get in touch</h1>
-    <p class="white" id="scroll">Feel free to send me an email or LinkedIn message. I look forward to hearing from you!</p>
-        <p class="white" id="scroll">Thank You for visiting my page :)</p>
-
-
-
-     				<a href="http://cz.linkedin.com/in/jakubvelfl" id="btnIn" class="socialMargin">in</a>
-            <a href="mailto:hello@jakubv.com" id="btnMail">@</a>
-
-        </div>
-
-    </div>
-
-
-    </div>
-    </body>
 </html>

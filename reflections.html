@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=.75">
+	<title>Reflections - Jakub Velfl</title>
+	<meta name="author" content="Jakub Velfl" />
+	<meta name="description" content="Jakub's web" />
+	<meta name="keywords" content="personal web, presentation, blog" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="icon" type="image/png" href="./img/profile_logo.png" width="10px" height="10px">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+	<script src="./jquery.sidr.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#simple-menu').sidr({
+				side: 'right',
+			});
+			$('#btnClose').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('#start').click(function () { // when 'btnClose' is clicked…
+				$.sidr('close', 'sidr');  // close the div with the ID of "sidr"
+			});
+			$('body').click(function () {
+				$.sidr('close', 'sidr');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+			<h2 style="margin-right: auto; padding-top: 1.5rem; padding-left: 2rem">JAKUB VELFL | REFLECTIONS</h2>
+			<a class="menu no-border" id="simple-menu" href="#sidr"><img src="./img/ic_view_headline_black_48dp.png"
+					id="btnMenu"></a>
+		</div>
+
+		<div class="content content-margin-top flex-column" style="align-items: flex-end; margin-bottom: 1rem;">
+			<h3>through reflection we can learn more about ourselves, take a moment to stop and note down important
+				ideas and interesting thoughts.</h3>
+				<div class="flex-row" style="align-items: flex-end; justify-content: left!important;">
+				<img src="./img/sunset-sun.jpg" alt="sunset sun" srcset="./img/sunset-sun.jpg" class="smaller" style="margin-top: 1rem; margin-bottom: 1rem; border-radius: 5px;">
+				<img src="./img/sunset-colours.jpg" alt="sunset colours" srcset="./img/sunset-colours.jpg" class="smaller" style="margin-top: 1rem; margin-bottom: 1rem; border-radius: 5px;">
+				</div>
+				<p><i>5 minutes later. live the moment, before you realize, it's gone.</i></p>
+				<p><i>living life as a living organism that is not afraid of change, but welcomes it as an opportunity.
+					living for your beliefs and walking small steps that lead to big things. trust in the power of
+					ideas that you can realize. don't be afraid to move forward, further and further. focus on what is, no one will take away our memories, but what is past is gone. live in harmony with
+					yourself, your feelings and don't get too influenced by your environment. a little bit of life
+					philosophy, however the sun is shining and it is time to go.</i></p>
+			<p><i>be the change.</i></p>
+			<p><i>keep it simple.</i></p>
+			<p><i>imagination - travelling without moving.</i></p>
+			<p><i>sometimes you go so far away only to find out you actually wanna go home.</i></p>
+			<p><i>enjoying the feeling of having nothing to do, at least for a while.</i></p>
+			<p><i>living co(s)mically.</i></p>
+		</div>
+
+	</div>
+
+</body>
+
+<nav id="sidr">
+	<ul>
+		<li><a class="no-border" href="./index.html">Home</a></li>
+		<li><a class="no-border" href="./bio.html">Bio</a></li>
+		<li><a class="no-border" href="./projects.html">Projects</a></li>
+		<li><a class="no-border" href="./reflections.html">Reflections</a></li>
+		<li><a class="no-border" href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+
+</html>
